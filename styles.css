@@ -1,0 +1,76 @@
+/*primary: hsl(15, 80%, 60%) #eb7047
+dark: hsl(15, 80%, 20%) #5c1f0a
+light: #f5b8a3 hsl(15, 80%, 80%)
+*/
+
+body {
+	margin: 20px !important;
+}
+* {
+	text-align: center !important;
+}
+img {
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+} #logo {
+	width: 64px;
+}
+textarea, input[type=text] {
+	border: 2px solid #5c1f0a !important;
+}
+h1, h3, p, label, textarea {
+	color: #5c1f0a  !important;
+}
+#delim {
+	width: 50px;
+	display: inline;
+}
+button {
+	background-color: #eb7047;
+	color: #fff;
+}
+
+
+::selection {
+	background: #f5b8a3;
+	color: #fff;
+}::-moz-selection {
+	background: #f5b8a3;
+	color: #fff;	
+} ::placeholder {
+	color: #eb7047;
+} ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #eb7047 !important;
+} ::-moz-placeholder { /* Firefox 19+ */
+	color: #eb7047 !important;
+} :-ms-input-placeholder { /* IE 10+ */
+	color: #eb7047 !important;
+} :-moz-placeholder { /* Firefox 18- */
+	color: #eb7047 !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+button:focus,
+.uneditable-input:focus {   
+  border-color: #eb7047 !important;
+  box-shadow: 0 0 8px #eb7047  !important;
+}

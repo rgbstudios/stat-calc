@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<!-- 1.0.2
+TODO:
+donwload output
+calculate the mode with ties
+split output into col-sm-4 or have an option to change UI
+setting modal to check which statistics to calculate
+
+percentile calc
+enter x,y data? enter x,y,x,y or x,x,x,y,y,y. or x,y x,y or x y x y or x y, x y
+-->
+<head>
+
+<link rel="shortcut icon" type="image/png" href="statCalc_logo.png"/>
+<title>Stat Calculator</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<meta charset="utf-8">
+<meta name="title=" content="Stat Calc">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Use Stat Calc to calculate many statistics on a data set">
+<meta name="keywords" content="stat, stats, statistic, statistics, calculator, calc, mean, median, mode, standard deviation, variance, quartile, population, sample">
+<meta id="metaColor1" name="theme-color" content="#eb7047">
+<meta id="metaColor2" name="msapplication-navbutton-color" content="#eb7047">
+<meta id="metaColor3" name="apple-mobile-web-app-status-bar-style" content="#eb7047">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>  
+
+<script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+<h1 class="display-4"><img id="logo" src="statCalc_logo.svg">Stat Calc</h1>
+
+<label for="input">Input:</label>
+<textarea autofocus id="input" rows="8" class="form-control" placeholder="Input here. Seperate data with new lines.">3,1,5,13,1,2,8</textarea>
+<br>
+
+<label for="delim">Seperate data with</label>
+<input id="delim" type="text" value="," maxlength="1" class="form-control input-sm">
+<br><br>
+
+<button onclick="calc()" title="Calculate" class="btn btn-lg btn-default"><i class="fas fa-arrow-alt-circle-right"></i>
+Calculate</button>
+<hr>
+
+<label for="output">
+<button id="copy" onclick="copy()" title="Copy" class="btn btn-default"><i class="fas fa-copy"></i></button>
+Output:
+</label>
+<textarea id="output" rows="24" class="form-control" spellcheck="false" placeholder="Output will appear here." onclick="this.setSelectionRange(0, this.value.length)"></textarea>
+<hr>
+
+<p><i>Use tab and shift tab to navigate</i></p>
+<p><i>Population uses number of items, Sample uses number of items minus one</i></p>
+
+</div>
+
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104632692-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
