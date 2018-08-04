@@ -1,4 +1,4 @@
-<img src="StatCalc_logo.svg" width="64px">
+<img src="statCalc_logo.svg" width="64px">
 
 Statistics Calculator - RGB Studios
 
