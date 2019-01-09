@@ -25,6 +25,9 @@ textarea, input[type=text] {
 h1, h3, p, label, textarea {
 	color: #5c1f0a  !important;
 }
+kbd {
+	background-color: #5c1f0a  !important;
+}
 #delim {
 	width: 50px;
 	display: inline;

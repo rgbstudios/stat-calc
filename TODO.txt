@@ -1,1 +1,17 @@
-update logo/icon
+To Do:
+
+calculate the mode with ties
+
+donwload output option
+
+split output into col-sm-4 or have an option to change UI
+
+settings modal to check which statistics to calculate with checkboxes
+
+percentile calculator?
+
+enter x,y data? enter x,y,x,y or x,x,x,y,y,y. or x,y x,y or x y x y or x y, x y
+
+permalink to input?
+
+info modal with info on each of the stats shown, such as mean, std dev, etc.

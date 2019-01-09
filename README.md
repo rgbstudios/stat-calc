@@ -1,17 +1,21 @@
 <img src="icon.svg" width="64px">
 
-Statistics Calculator - RGB Studios
+# Statistics Calculator - RGB Studios
 
 A powerful statistics calculator that performs a variety of operations on a data set
 
-<a href="https://rgbstudios.org/stat-calc">rgbstudios.org/stat-calc</a>
+<a href="https://rgbstudios.org/stat-calc">RGBStudios.org/stat-calc</a>
 
 <hr>
 
-1.0.3
+1.0.4
 
-by Justin Golden for RGB Studios
+by [Justin Golden](https://justingolden21.github.io) for [RGB Studios](https://rgbstudios.org)
 
-justingolden21.github.io
+<hr>
 
-rgbstudios.org
+*RGB Studios Homepage: https://rgbstudios.org*
+
+*Contact RGB Studios: contact@rgbstudios.org*
+
+*RGB Studios on GitHub: https://github.com/rgbstudios*
