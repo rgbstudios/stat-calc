@@ -8,6 +8,23 @@
 
 <hr>
 
+### Supported Operations:
+
+- Input size
+- Sorted Input
+- Sum
+- Sum of Squares
+- Mean (μ)
+- Population (σ^2) and Sample (s^2) Variance 
+- Population (σ) and Sample (s) Standard Deviation
+- Geometric and Quadratic Mean
+- Mode
+- Median, First and Third Quartiles, and Interquartile Range
+- Range and Mid-Range 
+- Minimum and Maximum
+
+<hr>
+
 Version 1.0.4
 
 **by [Justin Golden](https://justingolden21.github.io) for [RGB Studios](https://rgbstudios.org)**
