@@ -39,10 +39,10 @@ button {
 
 
 ::selection {
-	background: #f5b8a3;
+	background: #5c1f0a;
 	color: #fff;
 }::-moz-selection {
-	background: #f5b8a3;
+	background: #5c1f0a;
 	color: #fff;	
 } ::placeholder {
 	color: #eb7047;
@@ -58,22 +58,12 @@ button {
 
 textarea:focus,
 input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-input[type="checkbox"]:focus,
 button:focus,
-.uneditable-input:focus {   
-  border-color: #eb7047 !important;
-  box-shadow: 0 0 8px #eb7047  !important;
+.uneditable-input:focus {
+	border-color: #eb7047 !important;
+	box-shadow: 4px 4px 0px #eb7047  !important;
+}
+button:focus {
+	border-color: #5c1f0a !important;
+	box-shadow: 4px 4px 0px #5c1f0a  !important;
 }
