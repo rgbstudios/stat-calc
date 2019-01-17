@@ -5,7 +5,8 @@ light: #f5b8a3 hsl(15, 80%, 80%)
 
 body {
 	margin: 20px !important;
-	background: #fff url("visual_data.svg") no-repeat fixed center;
+	background: #fff url("backgrounds/visual_data.svg") no-repeat fixed center;
+	background-opacity: 0.5;
 }
 * {
 	text-align: center !important;

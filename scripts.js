@@ -1,5 +1,8 @@
 window.onload = function() {
 	calc();
+	let imgNames = 'analytics, business_plan, calculator, charts, dark_analytics, dashboard, data, data_trends, grades, growing, growth_analytics, pie_chart, revenue, setup_analytics, statistics, visual_data'.split(' ').join('').split(',');
+	let backgroundImg = imgNames[Math.floor(Math.random()*imgNames.length)];
+	$('body').css('background-image', 'url("backgrounds/' + backgroundImg + '.svg")');
 }
 
 function calc() {
