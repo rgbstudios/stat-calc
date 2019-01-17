@@ -1,5 +1,7 @@
 To Do:
 
+alternate between random background images from undraw.co
+
 calculate the mode with ties
 
 donwload output option

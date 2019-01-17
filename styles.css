@@ -5,6 +5,7 @@ light: #f5b8a3 hsl(15, 80%, 80%)
 
 body {
 	margin: 20px !important;
+	background: #fff url("visual_data.svg") no-repeat fixed center;
 }
 * {
 	text-align: center !important;
@@ -66,4 +67,14 @@ button:focus,
 button:focus {
 	border-color: #5c1f0a !important;
 	box-shadow: 4px 4px 0px #5c1f0a  !important;
+}
+
+input, textarea {
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background: #fff;
+	}
 }
